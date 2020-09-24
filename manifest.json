@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+
+    "name": "Meet Dictation",
+    "description": "For Hearing Impaired",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "MT.png",
+        "default_popup": "popup.html"
+    },
+
+    "icons": { "16": "MT.png",
+        "48": "MT.png",
+       "128": "MT.png" },
+
+    "permissions": [
+        "activeTab"
+    ]
+}
