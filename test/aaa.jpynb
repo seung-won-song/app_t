@@ -1,1 +1,3 @@
 
+ansan_data_T = ansan_data.loc[:,['TYPE','PRODUCT_NM','ROAD_NM','BUILDING_NO1','BUILDING_NO2']]
+ansan_data_T.head()
